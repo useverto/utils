@@ -1,0 +1,26 @@
+{
+  "name": "utils",
+  "version": "0.0.1",
+  "description": "Testing scripts for the Verto Exchange Network",
+  "main": "index.js",
+  "repository": "https://github.com/useverto/utils",
+  "author": "The Verto Team",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "run:deploy-pst": "node dist/deploy-pst.js",
+    "run:generate-wallet": "node dist/generate-wallet.js",
+    "run:pst-transfer": "node dist/pst-transfer.js",
+    "fmt": "prettier --write .",
+    "fmt:check": "prettier --check ."
+  },
+  "dependencies": {
+    "arweave": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.1",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.3"
+  }
+}
