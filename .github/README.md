@@ -52,4 +52,4 @@ Execute `yarn run:pst-transfer`.
 ## License
 
 The code contained within this repository is licensed under the MIT license.
-See [`./LICENSE`](./LICENSE) for more information.
+See [`./LICENSE`](https://github.com/useverto/utils/blob/master/LICENSE) for more information.

@@ -1,10 +1,10 @@
-name: Format
+name: Check formatting
 
 on:
   push:
   pull_request:
 
-jobs:
+check:
   lint:
     runs-on: ubuntu-latest
     steps:
