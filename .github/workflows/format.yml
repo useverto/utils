@@ -4,8 +4,8 @@ on:
   push:
   pull_request:
 
-check:
-  lint:
+jobs:
+  check:
     runs-on: ubuntu-latest
     steps:
       - name: Setup repo
