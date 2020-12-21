@@ -13,11 +13,14 @@
     "run:deploy-pst": "node dist/deploy-pst.js",
     "run:generate-wallet": "node dist/generate-wallet.js",
     "run:pst-transfer": "node dist/pst-transfer.js",
+    "run:vote": "node dist/vote.js",
+    "run:lock": "node dist/lock.js",
     "fmt": "prettier --write .",
     "fmt:check": "prettier --check ."
   },
   "dependencies": {
     "arweave": "^1.9.1",
+    "community-js": "^1.1.8",
     "smartweave": "^0.3.6"
   },
   "devDependencies": {
