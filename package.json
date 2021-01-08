@@ -15,6 +15,7 @@
     "run:pst-transfer": "node dist/pst-transfer.js",
     "run:vote": "node dist/vote.js",
     "run:lock": "node dist/lock.js",
+    "run:mintLocked": "node dist/mintLocked.js",
     "fmt": "prettier --write .",
     "fmt:check": "prettier --check ."
   },

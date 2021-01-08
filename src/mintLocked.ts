@@ -97,19 +97,19 @@ const votes: {
     recipient: "kVTh0bR5pGGwr7Hv3NDp7rC-B14MxqsYWMKTQyJ2RP0",
     qty: 333750,
     lockLength: 262800,
-    note: "(#6) Private Investor 12-Month Mint Lock",
+    note: "(#7) Private Investor 12-Month Mint Lock",
   },
   {
     recipient: "kVTh0bR5pGGwr7Hv3NDp7rC-B14MxqsYWMKTQyJ2RP0",
     qty: 333750,
     lockLength: 394200,
-    note: "(#6) Private Investor 18-Month Mint Lock",
+    note: "(#7) Private Investor 18-Month Mint Lock",
   },
   {
     recipient: "kVTh0bR5pGGwr7Hv3NDp7rC-B14MxqsYWMKTQyJ2RP0",
     qty: 333750,
     lockLength: 525600,
-    note: "(#6) Private Investor 24-Month Mint Lock",
+    note: "(#7) Private Investor 24-Month Mint Lock",
   },
 ];
 
