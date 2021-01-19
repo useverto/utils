@@ -15,7 +15,7 @@ const jwk = JSON.parse(
   )
 );
 
-const numberPerUnlock = 937500;
+const numberPerUnlock = 625000;
 const lengths = [
   131400, // 6 months
   262800, // 12 months
