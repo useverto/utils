@@ -22,94 +22,22 @@ const votes: {
   note: string;
 }[] = [
   {
-    recipient: "VOVgJ8yrpsYTHxI4ElnQfja49J_bT4urMufJPcfLvmg",
-    qty: 625000,
+    recipient: "h1ubFR8QUumVdTGtZ4spwqolmJUq1dsWVDWsS0Dsyw0",
+    qty: 104166,
     lockLength: 262800,
-    note: "(#3) Private Investor 12-Month Mint Lock",
+    note: "(#8) Private Investor 12-Month Mint Lock",
   },
   {
-    recipient: "VOVgJ8yrpsYTHxI4ElnQfja49J_bT4urMufJPcfLvmg",
-    qty: 625000,
+    recipient: "h1ubFR8QUumVdTGtZ4spwqolmJUq1dsWVDWsS0Dsyw0",
+    qty: 104167,
     lockLength: 394200,
-    note: "(#3) Private Investor 18-Month Mint Lock",
+    note: "(#8) Private Investor 18-Month Mint Lock",
   },
   {
-    recipient: "VOVgJ8yrpsYTHxI4ElnQfja49J_bT4urMufJPcfLvmg",
-    qty: 625000,
+    recipient: "h1ubFR8QUumVdTGtZ4spwqolmJUq1dsWVDWsS0Dsyw0",
+    qty: 104167,
     lockLength: 525600,
-    note: "(#3) Private Investor 24-Month Mint Lock",
-  },
-  {
-    recipient: "Apba2kQp8U1Rq1K-0YaX0M4POgaC8d0jEGRzIx0vMQQ",
-    qty: 260416,
-    lockLength: 262800,
-    note: "(#4) Private Investor 12-Month Mint Lock",
-  },
-  {
-    recipient: "Apba2kQp8U1Rq1K-0YaX0M4POgaC8d0jEGRzIx0vMQQ",
-    qty: 260417,
-    lockLength: 394200,
-    note: "(#4) Private Investor 18-Month Mint Lock",
-  },
-  {
-    recipient: "Apba2kQp8U1Rq1K-0YaX0M4POgaC8d0jEGRzIx0vMQQ",
-    qty: 260417,
-    lockLength: 525600,
-    note: "(#4) Private Investor 24-Month Mint Lock",
-  },
-  {
-    recipient: "--X7CXQPTIKbyY4hbBLDnjIiEU9R433sI__HO_TPHm4",
-    qty: 208333,
-    lockLength: 262800,
-    note: "(#5) Private Investor 12-Month Mint Lock",
-  },
-  {
-    recipient: "--X7CXQPTIKbyY4hbBLDnjIiEU9R433sI__HO_TPHm4",
-    qty: 208333,
-    lockLength: 394200,
-    note: "(#5) Private Investor 18-Month Mint Lock",
-  },
-  {
-    recipient: "--X7CXQPTIKbyY4hbBLDnjIiEU9R433sI__HO_TPHm4",
-    qty: 208334,
-    lockLength: 525600,
-    note: "(#5) Private Investor 24-Month Mint Lock",
-  },
-  {
-    recipient: "3CbmnFJnY3uwrT6EYh3GoJ0bo-fWfUh9hS6XNQAEavY",
-    qty: 729166,
-    lockLength: 262800,
-    note: "(#6) Private Investor 12-Month Mint Lock",
-  },
-  {
-    recipient: "3CbmnFJnY3uwrT6EYh3GoJ0bo-fWfUh9hS6XNQAEavY",
-    qty: 729167,
-    lockLength: 394200,
-    note: "(#6) Private Investor 18-Month Mint Lock",
-  },
-  {
-    recipient: "3CbmnFJnY3uwrT6EYh3GoJ0bo-fWfUh9hS6XNQAEavY",
-    qty: 729167,
-    lockLength: 525600,
-    note: "(#6) Private Investor 24-Month Mint Lock",
-  },
-  {
-    recipient: "kVTh0bR5pGGwr7Hv3NDp7rC-B14MxqsYWMKTQyJ2RP0",
-    qty: 333750,
-    lockLength: 262800,
-    note: "(#7) Private Investor 12-Month Mint Lock",
-  },
-  {
-    recipient: "kVTh0bR5pGGwr7Hv3NDp7rC-B14MxqsYWMKTQyJ2RP0",
-    qty: 333750,
-    lockLength: 394200,
-    note: "(#7) Private Investor 18-Month Mint Lock",
-  },
-  {
-    recipient: "kVTh0bR5pGGwr7Hv3NDp7rC-B14MxqsYWMKTQyJ2RP0",
-    qty: 333750,
-    lockLength: 525600,
-    note: "(#7) Private Investor 24-Month Mint Lock",
+    note: "(#8) Private Investor 24-Month Mint Lock",
   },
 ];
 

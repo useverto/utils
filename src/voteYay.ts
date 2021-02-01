@@ -16,7 +16,7 @@ const jwk = JSON.parse(
 );
 
 async function voteYay() {
-  for (let vote = 38; vote <= 52; vote++) {
+  for (let vote = 53; vote <= 55; vote++) {
     const txID = await interactWrite(
       client,
       jwk,
