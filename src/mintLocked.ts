@@ -22,22 +22,22 @@ const votes: {
   note: string;
 }[] = [
   {
-    recipient: "h1ubFR8QUumVdTGtZ4spwqolmJUq1dsWVDWsS0Dsyw0",
-    qty: 104166,
+    recipient: "v5dkRRBuneSHb4Vsj4R1YZuZscq6hAIuRuwOTFpgj1Y",
+    qty: 1041666,
     lockLength: 262800,
-    note: "(#8) Private Investor 12-Month Mint Lock",
+    note: "(#10) Private Investor 12-Month Mint Lock",
   },
   {
-    recipient: "h1ubFR8QUumVdTGtZ4spwqolmJUq1dsWVDWsS0Dsyw0",
-    qty: 104167,
+    recipient: "v5dkRRBuneSHb4Vsj4R1YZuZscq6hAIuRuwOTFpgj1Y",
+    qty: 1041667,
     lockLength: 394200,
-    note: "(#8) Private Investor 18-Month Mint Lock",
+    note: "(#10) Private Investor 18-Month Mint Lock",
   },
   {
-    recipient: "h1ubFR8QUumVdTGtZ4spwqolmJUq1dsWVDWsS0Dsyw0",
-    qty: 104167,
+    recipient: "v5dkRRBuneSHb4Vsj4R1YZuZscq6hAIuRuwOTFpgj1Y",
+    qty: 1041667,
     lockLength: 525600,
-    note: "(#8) Private Investor 24-Month Mint Lock",
+    note: "(#10) Private Investor 24-Month Mint Lock",
   },
 ];
 
