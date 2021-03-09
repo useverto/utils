@@ -29,6 +29,8 @@ async function voteYay(id: number) {
   console.log(`Vote ${id}: ${txID}`);
 }
 
-voteYay(59);
-voteYay(60);
-voteYay(61);
+voteYay(62);
+voteYay(63);
+voteYay(64);
+voteYay(65);
+voteYay(66);
