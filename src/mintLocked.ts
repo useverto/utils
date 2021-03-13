@@ -22,39 +22,10 @@ const votes: {
   note: string;
 }[] = [
   {
-    recipient: "jM402DHNU1y0GJ53BNh3n6Osk_1iEljGNHLRuUbedE0",
-    qty: 75000,
-    lockLength: 131400,
-    note: "(#1) Strategic Partner 6-Month Mint Lock",
-  },
-  {
-    recipient: "jM402DHNU1y0GJ53BNh3n6Osk_1iEljGNHLRuUbedE0",
-    qty: 75000,
+    recipient: "dxGmt44SZenqmHa-_IEl8AmuejgITs4pB3oe-xUR36A",
+    qty: 833000,
     lockLength: 262800,
-    note: "(#1) Strategic Partner 12-Month Mint Lock",
-  },
-  {
-    recipient: "jM402DHNU1y0GJ53BNh3n6Osk_1iEljGNHLRuUbedE0",
-    qty: 75000,
-    lockLength: 394200,
-    note: "(#1) Strategic Partner 18-Month Mint Lock",
-  },
-  {
-    recipient: "jM402DHNU1y0GJ53BNh3n6Osk_1iEljGNHLRuUbedE0",
-    qty: 75000,
-    lockLength: 525600,
-    note: "(#1) Strategic Partner 24-Month Mint Lock",
-  },
-
-  // Sep 10th, 2020 - 524420
-  // Mar 09th, 2021 - 641160
-  // Difference     = 116740
-  // 1 Year         ~ 262800
-  {
-    recipient: "WNeEQzI24ZKWslZkQT573JZ8bhatwDVx6XVDrrGbUyk",
-    qty: 2500000,
-    lockLength: 146060,
-    note: "(#1) Private Trading Post Incentive Agreement",
+    note: "(#2) Private Trading Post Incentive Agreement",
   },
 ];
 
