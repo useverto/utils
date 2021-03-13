@@ -18,6 +18,7 @@
     "run:pst-transfer": "yarn run build && node dist/pst-transfer.js",
     "run:vote": "yarn run build && node dist/vote.js",
     "run:voteYay": "yarn run build && node dist/voteYay.js",
+    "run:upload": "yarn run build && node dist/upload.js",
     "fmt": "prettier --write .",
     "fmt:check": "prettier --check ."
   },
