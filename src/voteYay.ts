@@ -30,3 +30,8 @@ async function voteYay(id: number) {
 }
 
 voteYay(67);
+voteYay(68);
+voteYay(69);
+voteYay(70);
+voteYay(71);
+voteYay(72);
