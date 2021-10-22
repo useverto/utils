@@ -23,9 +23,9 @@
     "fmt:check": "prettier --check ."
   },
   "dependencies": {
-    "arweave": "^1.10.0",
-    "community-js": "^1.1.14",
-    "smartweave": "^0.4.21"
+    "arweave": "^1.10.18",
+    "community-js": "^1.1.69",
+    "smartweave": "^0.4.45"
   },
   "devDependencies": {
     "@types/node": "^14.11.1",
