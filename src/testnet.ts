@@ -3,6 +3,7 @@ import Arweave from "arweave";
 import fs from "fs";
 import path from "path";
 import { createContract } from "smartweave";
+import request from "supertest";
 
 const testnet = new Arweave({
   host: "arweave.run",
@@ -19,6 +20,15 @@ async function copyContracts() {
   const wallet = await mainnet.wallets.generate();
   const address = await mainnet.wallets.getAddress(wallet);
 
+  try {
+    const server = "https://arweave.run:443";
+    const route = '/mint/' + address + '/10000000000000';
+    const mintRes = await request(server).get(route);
+    
+    console.log(await testnet.wallets.getBalance(address));
+  } catch (err) {
+    console.log(err);
+  }
   // save the wallet
   fs.writeFileSync(
     path.join(__dirname, `../arweave-wallet-${address}.json`),
