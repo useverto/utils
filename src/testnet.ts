@@ -6,7 +6,7 @@ import { createContract } from "smartweave";
 
 const testnet = new Arweave({
   host: "arweave.run",
-  port: 8080,
+  port: 443,
   protocol: "https",
 });
 const mainnet = new Arweave({
