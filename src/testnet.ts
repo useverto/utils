@@ -22,9 +22,9 @@ async function copyContracts() {
 
   try {
     const server = "https://arweave-testnet.herokuapp.com:443";
-    const route = '/mint/' + address + '/10000000000000';
+    const route = "/mint/" + address + "/10000000000000";
     const mintRes = await request(server).get(route);
-    
+
     console.log(await testnet.wallets.getBalance(address));
   } catch (err) {
     console.log(err);
@@ -113,15 +113,15 @@ async function copyContracts() {
         communityContract: "communityContract",
         pairs: [
           {
-            pair: ["vrt1", "vrt2"],
+            pair: [vrt1, vrt2],
             orders: [],
           },
           {
-            pair: ["vrt2", "vrt3"],
+            pair: [vrt2, vrt3],
             orders: [],
           },
           {
-            pair: ["vrt3", "vrt1"],
+            pair: [vrt3, vrt1],
             orders: [],
           },
         ],
