@@ -101,7 +101,7 @@ async function copyContracts() {
     fs.readFileSync(path.join(__dirname, "../assets/clob.js"))
   );
   const CLOB = await createContract(
-    mainnet,
+    testnet,
     wallet,
     clob_source,
     JSON.stringify(
@@ -132,6 +132,8 @@ async function copyContracts() {
       2
     )
   );
+
+  await testnet.api.get("mine");
 
   console.log("Clob contract", CLOB);
 
