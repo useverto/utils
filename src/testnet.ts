@@ -6,7 +6,7 @@ import { createContract } from "smartweave";
 import request from "supertest";
 
 const testnet = new Arweave({
-  host: "arweave.run",
+  host: "arweave-testnet.herokuapp.com",
   port: 443,
   protocol: "https",
 });
@@ -21,7 +21,7 @@ async function copyContracts() {
   const address = await mainnet.wallets.getAddress(wallet);
 
   try {
-    const server = "https://arweave.run:443";
+    const server = "https://arweave-testnet.herokuapp.com:443";
     const route = '/mint/' + address + '/10000000000000';
     const mintRes = await request(server).get(route);
     
@@ -36,6 +36,7 @@ async function copyContracts() {
   );
 
   const arLocalUtils = new ArLocalUtils(testnet, wallet, mainnet);
+  console.log("contract 1 before");
   const communityContract = await arLocalUtils.copyContract(
     "t9T7DIOGxx4VWXoCEeYYarFYeERTpWIC1V3y-BPZgKE",
     true,
@@ -51,9 +52,10 @@ async function copyContracts() {
       return state;
     }
   );
-
+  console.log("contract 1 after");
   console.log(communityContract);
 
+  console.log("contract 2 before");
   const vrt1 = await arLocalUtils.copyContract(
     "usjm4PCxUd5mtaon7zc97-dt-3qf67yPyqgzLnLqk5A",
     true,
@@ -63,9 +65,11 @@ async function copyContracts() {
       return state;
     }
   );
+  console.log("contract 2 after");
 
   console.log("Marton's token", vrt1);
 
+  console.log("contract 3 before");
   const vrt2 = await arLocalUtils.copyContract(
     "usjm4PCxUd5mtaon7zc97-dt-3qf67yPyqgzLnLqk5A",
     true,
@@ -75,9 +79,11 @@ async function copyContracts() {
       return state;
     }
   );
+  console.log("contract 3 after");
 
   console.log("Tate's token", vrt2);
 
+  console.log("contract 4 before");
   const vrt3 = await arLocalUtils.copyContract(
     "usjm4PCxUd5mtaon7zc97-dt-3qf67yPyqgzLnLqk5A",
     true,
@@ -88,33 +94,34 @@ async function copyContracts() {
     }
   );
 
+  console.log("contract 4 after");
   console.log("Joel's token", vrt3);
 
   const clob_source = new TextDecoder().decode(
     fs.readFileSync(path.join(__dirname, "../assets/clob.js"))
   );
   const CLOB = await createContract(
-    testnet,
+    mainnet,
     wallet,
     clob_source,
     JSON.stringify(
       {
-        emergencyHaltWallet: address,
+        emergencyHaltWallet: "address",
         halted: false,
         protocolFeePercent: 0.01,
         pairGatekeeper: false,
-        communityContract: communityContract,
+        communityContract: "communityContract",
         pairs: [
           {
-            pair: [vrt1, vrt2],
+            pair: ["vrt1", "vrt2"],
             orders: [],
           },
           {
-            pair: [vrt2, vrt3],
+            pair: ["vrt2", "vrt3"],
             orders: [],
           },
           {
-            pair: [vrt3, vrt1],
+            pair: ["vrt3", "vrt1"],
             orders: [],
           },
         ],
